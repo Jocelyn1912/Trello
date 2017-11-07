@@ -1,0 +1,125 @@
+/*Estilos generales*/
+* {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/*Primera sección*/
+header {
+	width: 100%;
+	text-align: center;
+}
+
+img {
+	height: 56%;
+	padding: 7px;
+}
+
+/*Primer div header*/
+.first {
+	background-color: #0067A3;
+	height: 2.5em;
+
+}
+
+/*Segundo div header*/
+.second {
+	background-color: #0079BF;
+	height: 2.5em;
+}
+
+/*Segunda sección*/
+article {
+ 	background-color: #0079BF;
+ 	height: 100vh;
+}
+
+/*Sección visible y a clickear*/
+#list{
+	padding: 0.5em;
+	width: 20%;
+}
+
+.form1{
+	padding: 5px;
+}
+
+/*Estilos primer formulario*/
+.form1 .inicio{
+	width: 95%;
+	height: 30px;
+	border-radius: 0.5em;
+	background-color: #005485;
+	border: none;
+	margin: 0;
+	padding: .5em;
+}
+
+input:focus{
+	outline: none;
+}
+
+/*Estilos placeholder primer formulario
+::-webkit-input-placeholder { 
+  color: #fff;
+  opacity: 0.7;
+}
+
+::-moz-placeholder { 
+  color: #fff;
+  opacity: 0.7;
+}
+
+:-ms-input-placeholder { 
+  color: #fff;
+  opacity: 0.7;
+}
+
+:-moz-placeholder { 
+  color: #fff;
+  opacity: 0.7;
+}
+
+
+ /*Formulario oculto*/
+.form2 {
+	background-color: #E2E4E6;
+	border-radius: 0.2em;
+	height: 80px;
+	padding: 5px;
+}
+.form2 .inicio{
+	width: 95%;
+	height: 30px;
+	border-radius: 0.5em;
+	border: none;
+	margin: 0;
+	padding: .5em;
+}
+
+.iconContainer {
+	height: 100%;
+	padding-top: 7px;
+}
+
+.btn {
+	background-color: #519839;
+	border: none;
+	width: 40%;
+	height: 35%;
+	border-radius: 4px;
+	color: #fff;
+}
+
+.fa-times {
+	color: #A2A3A5;
+}
+
+.hide{
+	display: none;
+}
+
+.show{
+	display: block;
+}
