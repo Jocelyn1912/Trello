@@ -41,12 +41,12 @@ article {
 	width: 20%;
 }
 
-.form1{
+#form1{
 	padding: 5px;
 }
 
 /*Estilos primer formulario*/
-.form1 .inicio{
+#form1 .inicio{
 	width: 95%;
 	height: 30px;
 	border-radius: 0.5em;
@@ -60,36 +60,21 @@ input:focus{
 	outline: none;
 }
 
-/*Estilos placeholder primer formulario
-::-webkit-input-placeholder { 
+/*Estilos placeholder primer formulario*/
+#form1 ::placeholder { 
   color: #fff;
   opacity: 0.7;
 }
-
-::-moz-placeholder { 
-  color: #fff;
-  opacity: 0.7;
-}
-
-:-ms-input-placeholder { 
-  color: #fff;
-  opacity: 0.7;
-}
-
-:-moz-placeholder { 
-  color: #fff;
-  opacity: 0.7;
-}
-
 
  /*Formulario oculto*/
-.form2 {
+#form2 {
 	background-color: #E2E4E6;
 	border-radius: 0.2em;
 	height: 80px;
 	padding: 5px;
 }
-.form2 .inicio{
+
+#form2 .inicio{
 	width: 95%;
 	height: 30px;
 	border-radius: 0.5em;
@@ -98,6 +83,7 @@ input:focus{
 	padding: .5em;
 }
 
+/*Container escondido*/
 .iconContainer {
 	height: 100%;
 	padding-top: 7px;
@@ -112,14 +98,12 @@ input:focus{
 	color: #fff;
 }
 
+/*Icono*/
 .fa-times {
 	color: #A2A3A5;
 }
 
+/*Clase que oculta formulario*/
 .hide{
 	display: none;
-}
-
-.show{
-	display: block;
 }
