@@ -1,13 +1,13 @@
 //Evento del imput
 var form1 = document.getElementById('form1');
-form1.addEventListener('click', showForm); 
 
-//Función que quita la clase hide a mi formulario para que se haga visible
-function showForm (){
+//Función que quita la clase oculta al formulario y se la agrega al imput
+form1.addEventListener('click', function (){
 	var form2 = document.getElementById('form2');
 	if (form2.classList.contains('hide')) {
 		form2.classList.remove('hide');
+		form1.classList.add('hide');
 	};
-}
+})
 
 

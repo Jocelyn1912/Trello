@@ -104,6 +104,7 @@ input:focus{
 }
 
 /*Clase que oculta formulario*/
-.hide{
+.hide {
 	display: none;
 }
+
