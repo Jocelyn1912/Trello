@@ -89,7 +89,7 @@ input:focus{
 	padding-top: 7px;
 }
 
-.btn {
+#btn {
 	background-color: #519839;
 	border: none;
 	width: 40%;
@@ -106,5 +106,13 @@ input:focus{
 /*Clase que oculta formulario*/
 .hide {
 	display: none;
+}
+
+#list {
+	display: inline-block;
+}
+
+.float {
+	float: left;
 }
 
